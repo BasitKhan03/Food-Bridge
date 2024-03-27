@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "903781008567",
+    "project_id": "food-bridge-1fecd",
+    "storage_bucket": "food-bridge-1fecd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903781008567:android:cdb4292ead02c7e8f87932",
+        "android_client_info": {
+          "package_name": "com.foodbridge.FoodBridge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz7qDj_5P4Jm0t1KoaOcpFxCT0NKdYLvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
