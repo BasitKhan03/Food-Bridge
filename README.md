@@ -16,3 +16,11 @@ To get started with Food-Bridge, follow these steps:
 2) Navigate to the project directory.
 3) Install dependencies using `npm install` or `yarn install`.
 4) Run the app on your preferred platform using npm start or yarn start.
+
+## Usage
+Once the app is installed, users can:
+
+* Sign up and create a profile.
+* Browse available food listings or upload their own.
+* Communicate with other users to arrange food pickups or deliveries.
+* Complete daily goals to level up.
