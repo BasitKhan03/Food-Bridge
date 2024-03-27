@@ -7,6 +7,7 @@ Food-Bridge is a mobile application designed to bridge the gap between surplus f
 * **Food Discovery:** Browse and discover available food listings in your area.
 * **Location-Based:** Utilizes location services to connect users with nearby food donors and recipients.
 * **User Profiles:** Create and manage user profiles, including preferences and dietary restrictions.
+* **Daily Goals:** Track daily goals for food sharing activities, encouraging users to contribute regularly to the community.
 * **Messaging:** Communicate with other users to coordinate food pickups and deliveries.
 
 ## Installation
@@ -24,3 +25,11 @@ Once the app is installed, users can:
 * Browse available food listings or upload their own.
 * Communicate with other users to arrange food pickups or deliveries.
 * Complete daily goals to level up.
+
+## Contributing
+We welcome contributions from the community. If you'd like to contribute to Food-Bridge, please fork the repository and submit a pull request with your changes.
+
+## Support
+For any questions or issues, please open an issue on GitHub.
+
+
