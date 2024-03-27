@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useFocusEffect } from '@react-navigation/native';
 import { StyleSheet, View, Text, TouchableOpacity, Image } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { AntDesign, MaterialCommunityIcons, Feather, Ionicons, MaterialIcons, Entypo } from '@expo/vector-icons';
+import { AntDesign, MaterialCommunityIcons, Feather, Ionicons, MaterialIcons } from '@expo/vector-icons';
 
 import DrawerView from '../components/DrawerView';
 import SubHeaderNav from '../components/SubHeaderNav';

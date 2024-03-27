@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { useFocusEffect } from '@react-navigation/native';
 import { StyleSheet, View, Text, ScrollView, Image } from 'react-native';
+import { useFocusEffect } from '@react-navigation/native';
 
 import SubHeaderNav from '../components/SubHeaderNav';
 import DrawerView from '../components/DrawerView';

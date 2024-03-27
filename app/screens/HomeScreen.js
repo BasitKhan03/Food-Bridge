@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Text, View, StyleSheet, SafeAreaView, ScrollView, RefreshControl } from 'react-native';
+import { Text, View, StyleSheet, ScrollView, RefreshControl } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 
 import HeaderNav from '../components/HeaderNav';
@@ -449,7 +449,7 @@ export default function HomeScreen({ navigation, setUser, setNotificationData, s
 
     return (
         <>
-            <SafeAreaView style={{ flex: 1 }}>
+            <View style={{ flex: 1 }}>
 
                 <DrawerView style={styles.drawerView}>
 
@@ -493,7 +493,7 @@ export default function HomeScreen({ navigation, setUser, setNotificationData, s
                 </DrawerView>
 
 
-            </SafeAreaView>
+            </View>
         </>
     )
 }

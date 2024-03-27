@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { StyleSheet, View, Text, Image, TextInput, TouchableOpacity, Keyboard, SafeAreaView, StatusBar, ScrollView } from 'react-native';
+import { StyleSheet, View, Text, Image, TextInput, TouchableOpacity, Keyboard, StatusBar, ScrollView } from 'react-native';
 import { AntDesign, Octicons, MaterialCommunityIcons, FontAwesome5, MaterialIcons, Feather } from '@expo/vector-icons';
 
 import { auth } from '../firebase/FirebaseConfig';
@@ -70,7 +70,7 @@ function LoginScreen({ navigation }) {
     }
 
     return (
-        <SafeAreaView style={{ flex: 1 }}>
+        <View style={{ flex: 1 }}>
             <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps='handled'>
                 <View style={styles.container}>
                     <View style={styles.headingContainer}>
@@ -143,7 +143,7 @@ function LoginScreen({ navigation }) {
                     </View>
                 </View>
             </ScrollView>
-        </SafeAreaView>
+        </View>
     );
 }
 

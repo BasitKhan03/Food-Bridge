@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useFocusEffect } from '@react-navigation/native';
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity, TextInput, Image, Keyboard, Platform } from 'react-native';
+import { useFocusEffect } from '@react-navigation/native';
 import { AntDesign, Entypo, Feather, Ionicons, MaterialIcons, MaterialCommunityIcons, Octicons } from '@expo/vector-icons';
 import { Picker } from '@react-native-picker/picker';
 import * as ImagePicker from 'expo-image-picker';

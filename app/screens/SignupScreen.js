@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { StyleSheet, View, Text, TextInput, TouchableOpacity, Keyboard, SafeAreaView, ScrollView, Image } from 'react-native';
+import { StyleSheet, View, Text, TextInput, TouchableOpacity, Keyboard, ScrollView, Image } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { AntDesign, Octicons, MaterialCommunityIcons, FontAwesome5, MaterialIcons, Feather } from '@expo/vector-icons';
 import { SkypeIndicator, WaveIndicator } from 'react-native-indicators';
@@ -190,7 +190,7 @@ function SignupScreen({ navigation }) {
 
     return (
         <>
-            {success === null ? <SafeAreaView style={{ flex: 1 }}>
+            {success === null ? <View style={{ flex: 1 }}>
                 <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps='handled'>
                     <View style={styles.container}>
                         <View>
@@ -328,7 +328,7 @@ function SignupScreen({ navigation }) {
                         )}
                     </View>
                 </ScrollView>
-            </SafeAreaView>
+            </View>
 
                 :
 
