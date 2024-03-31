@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useFocusEffect } from '@react-navigation/native';
-import { StyleSheet, Text, Dimensions, View, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, Text, Dimensions, View, TouchableOpacity, Image, StatusBar } from 'react-native';
 import { Ionicons, Feather, MaterialCommunityIcons } from '@expo/vector-icons';
 
 import Spinner from '../components/Spinner';
@@ -124,6 +124,8 @@ export default function GoalsScreen({ navigation, user }) {
         <>
             <View style={styles.container}>
 
+                <StatusBar translucent backgroundColor="transparent" />
+
                 <View style={styles.header}>
                     <View style={styles.box}>
                         <TouchableOpacity onPress={() => { navigation.navigate('home') }} style={{ top: 1.7, marginLeft: spacing }}>
@@ -241,8 +243,8 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 100,
         padding: spacing * 2,
-        paddingTop: spacing * 3.4,
-        paddingBottom: spacing * 0.3,
+        paddingTop: StatusBar.currentHeight,
+        paddingBottom: spacing * 0.1,
         elevation: spacing * 1.5,
         shadowColor: colors.darkLight,
         zIndex: 1005

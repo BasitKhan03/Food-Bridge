@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, ImageBackground, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, ImageBackground, Text, TouchableOpacity, View, StatusBar } from 'react-native';
 
 import { auth } from '../firebase/FirebaseConfig';
 import { onAuthStateChanged, signOut } from "firebase/auth";
@@ -36,6 +36,8 @@ function WelcomeScreen({ navigation }) {
 
     return (
         <ImageBackground style={{ flex: 1 }} source={require('../assets/welcome-bg.jpeg')}>
+
+            <StatusBar translucent backgroundColor="transparent" />
 
             <View style={{ flex: 1, backgroundColor: colors.black, opacity: 0.4 }} />
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity, StatusBar } from 'react-native';
 import { Ionicons, Feather } from "@expo/vector-icons";
 
 import colors from '../config/colors';
@@ -13,6 +13,8 @@ function SubHeaderNav(props) {
 
     return (
         <View style={styles.topBarContainer}>
+            <StatusBar translucent backgroundColor="transparent" />
+
             <View style={styles.topBar}>
                 <TouchableOpacity onPress={() => { props.navigation.goBack() }} style={{ top: 1.7, marginLeft: spacing }}>
                     <Ionicons name="arrow-back" size={spacing * 2.7} color={colors.primary} />
@@ -40,7 +42,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 100,
         padding: spacing * 2,
-        paddingTop: spacing * 3.5,
+        paddingTop: StatusBar.currentHeight,
         paddingBottom: -spacing * 1.5,
         elevation: spacing,
         shadowColor: colors.darkGray,

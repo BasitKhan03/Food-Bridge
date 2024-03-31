@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useFocusEffect } from '@react-navigation/native';
-import { StyleSheet, Text, View, TouchableOpacity, Image, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Image, ScrollView, StatusBar } from 'react-native';
 import { Ionicons, Feather } from '@expo/vector-icons';
 
 import Spinner from '../components/Spinner';
@@ -67,6 +67,8 @@ export default function ItemRequestScreen({ navigation, user }) {
     return (
         <>
             <View style={styles.container}>
+
+                <StatusBar translucent backgroundColor="transparent" />
 
                 <View style={styles.header}>
                     <View style={styles.box}>
@@ -159,7 +161,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 100,
         padding: spacing * 2,
-        paddingTop: spacing * 3.5,
+        paddingTop: StatusBar.currentHeight,
         paddingBottom: spacing * 0.1,
         elevation: spacing * 1.5,
         shadowColor: colors.darkLight,

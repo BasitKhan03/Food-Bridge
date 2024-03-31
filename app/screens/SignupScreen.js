@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { StyleSheet, View, Text, TextInput, TouchableOpacity, Keyboard, ScrollView, Image } from 'react-native';
+import { StyleSheet, View, Text, TextInput, TouchableOpacity, Keyboard, ScrollView, Image, StatusBar } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { AntDesign, Octicons, MaterialCommunityIcons, FontAwesome5, MaterialIcons, Feather } from '@expo/vector-icons';
 import { SkypeIndicator, WaveIndicator } from 'react-native-indicators';
@@ -352,7 +352,7 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         backgroundColor: colors.white,
         zIndex: 2,
-        paddingTop: spacing * 6.2,
+        paddingTop: StatusBar.currentHeight * 1.2,
         paddingBottom: spacing * 1.7
     },
 

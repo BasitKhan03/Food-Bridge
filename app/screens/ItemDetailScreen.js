@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Dimensions, ImageBackground, ScrollView, StyleSheet, Text, TouchableOpacity, View, Image } from "react-native";
 import { Ionicons, Feather, AntDesign, Entypo } from "@expo/vector-icons";
-import MapView, { Marker } from 'react-native-maps';
+// import MapView, { Marker } from 'react-native-maps';
 import * as Location from 'expo-location';
 import Modal from "react-native-modal";
 
@@ -424,9 +424,10 @@ export default function ItemDetailScreen({ navigation, route }) {
                             <Text style={[styles.detailText, { textAlign: 'center', fontWeight: '400', fontSize: spacing * 1.5 }]}>Approx location of the item</Text>
 
                             <View style={{ height: spacing * 20, marginTop: spacing }}>
-                                <MapView style={styles.map} region={location} scrollEnabled={false} zoomEnabled={false}>
+                                {/* <MapView style={styles.map} region={location} scrollEnabled={false} zoomEnabled={false}>
                                     <Marker coordinate={location} title='Marker' />
-                                </MapView>
+                                </MapView> */}
+                                <Image style={styles.map} source={require('../assets/map2.jpg')} />
                             </View>
 
                             <View>

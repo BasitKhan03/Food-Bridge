@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, Image, Text, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Image, Text, TouchableOpacity, StatusBar } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import { DotIndicator } from 'react-native-indicators';
 
@@ -10,6 +10,8 @@ export default function HeaderNav(props) {
     return (
         <>
             <View style={styles.topBarContainer}>
+                <StatusBar translucent backgroundColor="transparent" />
+
                 <View style={styles.topBar}>
                     <Image style={styles.userImage} source={require("../assets/avatar.jpg")} />
                     <Text style={styles.userName}>{props.nameLoading ? <DotIndicator color={colors.darkOrange} size={4} count={5} style={{ paddingLeft: spacing * 0.2 }} /> : props.username}</Text>
@@ -38,7 +40,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 100,
         padding: spacing * 2,
-        paddingTop: spacing * 3.5,
+        paddingTop: StatusBar.currentHeight,
         paddingBottom: spacing * 0.1
     },
     topBar: {

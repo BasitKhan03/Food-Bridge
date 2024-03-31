@@ -50,7 +50,7 @@ function LoginScreen({ navigation }) {
                         setPassword('');
 
                         console.log('Logged in successfully');
-                        navigation.navigate('welcome');
+                        navigation.navigate('home');
                     })
                     .catch((err) => {
                         var error = err.message;
@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
         zIndex: 2
     },
     headingContainer: {
-        marginTop: StatusBar.currentHeight * 1.6
+        marginTop: StatusBar.currentHeight * 1.2
     },
     headingDark: {
         color: colors.black,
