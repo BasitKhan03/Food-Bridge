@@ -32,4 +32,12 @@ We welcome contributions from the community. If you'd like to contribute to Food
 ## Support
 For any questions or issues, please open an issue on GitHub.
 
+## App Preview
+Take a glimpse into the Food-Bridge app with the following screenshots. Explore its intuitive interface and discover how easy it is to share and discover surplus food in your community.
+
+### Welcome, Login & Signup
+These screens welcome users to the Food-Bridge app and provide options to log in if they already have an account or sign up to create a new one. Get started with seamless access to the community and begin sharing surplus food today.
+
+<img src="https://github.com/BasitKhan03/NSOFT-App/assets/101899595/dd0a6e1f-3c52-4a1e-a408-31cba5976ce6" width="232" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/5c4eb41f-f275-4af7-93c5-eb2b13905017" width="240" />
 
