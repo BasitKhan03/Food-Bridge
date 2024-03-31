@@ -46,7 +46,7 @@ These screens welcome users to the Food-Bridge app and provide options to log in
 The "Home" screen showcases a variety of food items listed by users, categorized for easy browsing. Explore different categories and discover surplus food available for sharing in your community.
 
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/4ff10767-3acb-48b5-bbc7-c1ea2db00de2" width="250" />
-<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/b09175e7-3233-4056-98e1-f05e4058a9cb" width="250" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/b09175e7-3233-4056-98e1-f05e4058a9cb" width="248" />
 
 
 
