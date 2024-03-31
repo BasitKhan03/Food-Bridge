@@ -38,6 +38,6 @@ Take a glimpse into the Food-Bridge app with the following screenshots. Explore 
 ### Welcome, Login & Signup
 These screens welcome users to the Food-Bridge app and provide options to log in if they already have an account or sign up to create a new one. Get started with seamless access to the community and begin sharing surplus food today.
 
-<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/26f9e5b8-28c6-4868-bc09-d1c3fbc3d987" width="232" />
-<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/5c4eb41f-f275-4af7-93c5-eb2b13905017" width="240" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/26f9e5b8-28c6-4868-bc09-d1c3fbc3d987" width="250" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/5c4eb41f-f275-4af7-93c5-eb2b13905017" width="250" />
 
