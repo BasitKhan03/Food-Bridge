@@ -91,6 +91,14 @@ The "FAQs" screen provides users with answers to frequently asked questions, hel
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/3fce21e0-946f-455a-993b-aa4c14d3f8ed" width="250" />
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/451facd1-8e70-4310-881f-fd14b463ddce" width="250" />
 
+### Daily Goals
+The "Daily Goals" screen empowers users to track their daily goals for food sharing activities. Stay motivated and track your progress towards contributing to the community by setting achievable goals each day.
+
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/53dd01e0-7883-41a2-bf6a-0a17d57597d8" width="250" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/cf78551a-da1d-49f3-a9b8-3b0a3146dc03" width="250" />
+
+
+
 
 
 
