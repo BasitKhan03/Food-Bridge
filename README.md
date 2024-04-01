@@ -46,8 +46,8 @@ These screens welcome users to the Food-Bridge app and provide options to log in
 The "Home" screen serves as a hub for discovering surplus food items listed by users. Browse through various categories to find food items available for sharing in your community. Additionally, easily list your own surplus food items by using the "Add Item" button.
 
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/906f0f1c-d7fb-4c2a-b3c4-c50d4a7f33c8" width="250" />
-<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/36530193-768b-4efa-8bbe-daf57e144e33" width="248" />
-<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/6b00aa34-f8e3-4e99-8424-620c28383f1b" width="250" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/36530193-768b-4efa-8bbe-daf57e144e33" width="250" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/6b00aa34-f8e3-4e99-8424-620c28383f1b" width="252" />
 
 
 
