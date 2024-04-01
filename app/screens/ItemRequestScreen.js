@@ -159,10 +159,10 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         width: '100%',
-        height: 100,
+        height: 90,
         padding: spacing * 2,
         paddingTop: StatusBar.currentHeight,
-        paddingBottom: spacing * 0.1,
+        paddingBottom: spacing * 0.8,
         elevation: spacing * 1.5,
         shadowColor: colors.darkLight,
         zIndex: 1005
