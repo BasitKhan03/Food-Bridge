@@ -52,7 +52,7 @@ The "Home" screen serves as a hub for discovering surplus food items listed by u
 ### Item Details
 The "Item Details" screen provides comprehensive information about a listed food item, including its description, images, and location. Users can view all relevant details and, if interested, request the item directly from this screen, fostering seamless communication between food donors and recipients.
 
-<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/33ef79f7-1651-4ba7-8825-e797851282cf" width="250" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/33ef79f7-1651-4ba7-8825-e797851282cf" width="249" />
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/8105467c-0120-4455-b889-233a9101d1cd" width="250" />
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/021f2207-f331-4839-90f9-17a962b509ff" width="250" />
 
