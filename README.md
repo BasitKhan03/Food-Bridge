@@ -47,8 +47,11 @@ The "Home" screen serves as a hub for discovering surplus food items listed by u
 
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/906f0f1c-d7fb-4c2a-b3c4-c50d4a7f33c8" width="250" />
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/36530193-768b-4efa-8bbe-daf57e144e33" width="250" />
-<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/6b00aa34-f8e3-4e99-8424-620c28383f1b" width="252" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/6b00aa34-f8e3-4e99-8424-620c28383f1b" width="253" />
 
+### Drawer
+The "Drawer" menu provides easy access to various sections and features of the app. Navigate effortlessly between different screens, including your profile, settings, and more, using the intuitive drawer navigation.
 
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/01a6f9c1-be3d-4ff2-89d1-763cf2f19b64" width="250" />
 
 
