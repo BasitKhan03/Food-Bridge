@@ -71,7 +71,7 @@ The "Profile" screen allows users to view and manage their personal information,
 The "Settings" screen allows users to manage their account preferences, including editing personal information and changing passwords, ensuring a personalized and secure experience within the app.
 
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/672fb5cd-bc27-4be7-8f89-8152a89e0492" width="250" />
-<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/0c736a3d-7163-4f89-8f77-aeaa20448007" width="250" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/0c736a3d-7163-4f89-8f77-aeaa20448007" width="249" />
 
 ### Notifications
 The "Notifications" screen and the modal keeps users informed about important updates, such as new messages, food requests, and activity related to their listings.
