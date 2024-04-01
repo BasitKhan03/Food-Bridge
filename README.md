@@ -61,4 +61,14 @@ The "Drawer" menu provides easy access to various sections and features of the a
 
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/01a6f9c1-be3d-4ff2-89d1-763cf2f19b64" width="250" />
 
+### Notifications
+The "Notifications" screen and the modal keeps users informed about important updates, such as new messages, food requests, and activity related to their listings.
+
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/11f35e57-6922-401f-b16d-9177830f8244" width="250" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/35bf3c90-316c-42f0-9f2b-e9b739222911" width="250" />
+
+
+
+
+
 
