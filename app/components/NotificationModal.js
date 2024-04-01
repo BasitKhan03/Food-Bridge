@@ -74,7 +74,7 @@ function NotificationModal(props) {
 const styles = StyleSheet.create({
     myNotification: {
         flex: 0,
-        top: '7%',
+        top: '6%',
         width: '78%',
         height: '33%',
         alignSelf: 'flex-end',
