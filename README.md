@@ -64,8 +64,14 @@ The "Drawer" menu provides easy access to various sections and features of the a
 ### Profile
 The "Profile" screen allows users to view and manage their personal information, including their profile picture, name, and contact details. Additionally, users can track their activity within the app, providing insights into their contributions to the Food-Bridge community.
 
-<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/e8e1cbe6-f027-4fe3-8917-67f992b7c537" width="247" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/e8e1cbe6-f027-4fe3-8917-67f992b7c537" width="248" />
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/fc421843-9acb-4098-9201-fe6f9820ff1c" width="250" />
+
+### Settings
+The "Settings" screen allows users to manage their account preferences, including editing personal information and changing passwords, ensuring a personalized and secure experience within the app.
+
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/672fb5cd-bc27-4be7-8f89-8152a89e0492" width="250" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/0c736a3d-7163-4f89-8f77-aeaa20448007" width="250" />
 
 ### Notifications
 The "Notifications" screen and the modal keeps users informed about important updates, such as new messages, food requests, and activity related to their listings.
