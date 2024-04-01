@@ -35,14 +35,14 @@ For any questions or issues, please open an issue on GitHub.
 ## App Preview
 Take a glimpse into the Food-Bridge app with the following screenshots. Explore its intuitive interface and discover how easy it is to share and discover surplus food in your community.
 
-### Welcome, Login & Signup
+### - Welcome, Login & Signup
 These screens welcome users to the Food-Bridge app and provide options to log in if they already have an account or sign up to create a new one. Get started with seamless access to the community and begin sharing surplus food today.
 
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/5c4eb41f-f275-4af7-93c5-eb2b13905017" width="240" />
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/e3753e77-87cd-48ee-9361-cf17b0e664dd" width="232" />
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/bef75366-f247-4d71-891d-cb3e07e0c1bf" width="232" />
 
-### Home
+### - Home
 The "Home" screen serves as a hub for discovering surplus food items listed by users. Browse through various categories to find food items available for sharing in your community. Additionally, easily list your own surplus food items by using the "Add Item" button.
 
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/906f0f1c-d7fb-4c2a-b3c4-c50d4a7f33c8" width="240" />
