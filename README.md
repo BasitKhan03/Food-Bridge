@@ -85,7 +85,11 @@ The "Notifications" screen and the modal keeps users informed about important up
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/11f35e57-6922-401f-b16d-9177830f8244" width="252" />
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/35bf3c90-316c-42f0-9f2b-e9b739222911" width="250" />
 
+### FAQs
+The "FAQs" screen provides users with answers to frequently asked questions, helping them better understand how to use the app and resolve any queries they may have.
 
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/3fce21e0-946f-455a-993b-aa4c14d3f8ed" width="250" />
+<img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/451facd1-8e70-4310-881f-fd14b463ddce" width="250" />
 
 
 
