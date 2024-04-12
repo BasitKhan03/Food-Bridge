@@ -146,18 +146,11 @@ function SignupScreen({ navigation, setJustSignedUp }) {
                                     setAddress('');
                                     setCity('');
 
-                                    // auth.signOut().then(() => {
-                                    //     setTimeout(() => {
-                                    //         setSuccess(null);
-                                    //         navigation.navigate('login');
-                                    //     }, 2600);
-                                    // }).catch((err) => {
-                                    //     console.log(err);
-                                    // });
-
                                     auth.signOut().then(() => {
-                                        setSuccess(null);
-                                        navigation.navigate('login');
+                                        setTimeout(() => {
+                                            setSuccess(null);
+                                            navigation.navigate('login');
+                                        }, 2500);
                                     }).catch((err) => {
                                         console.log(err);
                                     });
