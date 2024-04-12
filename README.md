@@ -10,6 +10,9 @@ Food-Bridge is a mobile application designed to bridge the gap between surplus f
 * **Daily Goals:** Track daily goals for food sharing activities, encouraging users to contribute regularly to the community.
 * **Messaging:** Communicate with other users to coordinate food pickups and deliveries.
 
+## Download the App
+You can download the latest version of the Food Bridge app APK [here](https://expo.dev//accounts/food-bridge/projects/Food-Bridge/builds/4f228547-9c22-4b50-a150-258c0c653d70).
+
 ## Installation
 To get started with Food-Bridge, follow these steps:
 
@@ -31,9 +34,6 @@ We welcome contributions from the community. If you'd like to contribute to Food
 
 ## Support
 For any questions or issues, please open an issue on GitHub.
-
-## Download the App
-You can download the latest version of the Food Bridge app APK [here](https://expo.dev//accounts/food-bridge/projects/Food-Bridge/builds/4f228547-9c22-4b50-a150-258c0c653d70).
 
 ## App Preview
 Take a glimpse into the Food-Bridge app with the following screenshots. Explore its intuitive interface and discover how easy it is to share and discover surplus food in your community.
