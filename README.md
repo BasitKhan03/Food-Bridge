@@ -102,6 +102,7 @@ The "Item Requests" screen displays all requests made by other users for your li
 
 <img src="https://github.com/BasitKhan03/Food-Bridge/assets/101899595/a1ce8cd8-af67-4be4-a09c-ea9f2d2a6175" width="240" />
 
-
+## Download the App
+You can download the latest version of the Food Bridge app APK [here](https://expo.dev//accounts/food-bridge/projects/Food-Bridge/builds/4f228547-9c22-4b50-a150-258c0c653d70).
 
 
