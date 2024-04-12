@@ -150,7 +150,7 @@ function SignupScreen({ navigation, setJustSignedUp }) {
                                         setTimeout(() => {
                                             setSuccess(null);
                                             navigation.navigate('login');
-                                        }, 2500);
+                                        }, 1800);
                                     }).catch((err) => {
                                         console.log(err);
                                     });
