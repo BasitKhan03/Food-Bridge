@@ -14,6 +14,11 @@ function RootNavigation() {
     const [notificationData, setNotificationData] = useState([]);
     const [userLogged, setUserLogged] = useState(null);
     const [loading, setLoading] = useState(true);
+    const [justSignedUp, setJustSignedUp] = useState(false);
+
+    useEffect(() => {
+        setJustSignedUp(false);
+    }, []);
 
     useEffect(() => {
         const checkLogin = () => {
@@ -30,22 +35,35 @@ function RootNavigation() {
             });
         }
 
-        checkLogin();
-    }, []);
+        if (!justSignedUp) {
+            checkLogin();
+        }
+    }, [justSignedUp]);
 
     if (loading) {
         return <SplashScreen />;
     }
 
-    return (
-        <NavigationContainer>
-            {userLogged ?
-                <AppStack setUser={setUser} user={user} setUserLevel={setUserLevel} userLevel={userLevel} setNotificationData={setNotificationData} notificationData={notificationData} />
-                :
-                <AuthStack />
-            }
-        </NavigationContainer>
-    );
+    if (justSignedUp) {
+        return (
+            <NavigationContainer>
+                <AuthStack setJustSignedUp={setJustSignedUp} />
+            </NavigationContainer>
+        )
+    }
+
+    else {
+        return (
+            <NavigationContainer>
+                {userLogged ?
+                    <AppStack setUser={setUser} user={user} setUserLevel={setUserLevel} userLevel={userLevel} setNotificationData={setNotificationData} notificationData={notificationData} />
+                    :
+                    <AuthStack setJustSignedUp={setJustSignedUp} />
+                }
+            </NavigationContainer>
+        );
+    }
+
 }
 
 export default RootNavigation;

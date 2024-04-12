@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { StyleSheet, View, Text, TextInput, TouchableOpacity, Keyboard, ScrollView, Image, StatusBar } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { AntDesign, Octicons, MaterialCommunityIcons, FontAwesome5, MaterialIcons, Feather } from '@expo/vector-icons';
-import { SkypeIndicator, WaveIndicator } from 'react-native-indicators';
+import { SkypeIndicator } from 'react-native-indicators';
 
 import { collection, addDoc } from 'firebase/firestore';
 import { auth, db } from '../firebase/FirebaseConfig';
@@ -11,7 +11,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import colors from '../config/colors';
 import spacing from '../config/spacing';
 
-function SignupScreen({ navigation }) {
+function SignupScreen({ navigation, setJustSignedUp }) {
 
     // ----|| useState hooks for input field icons ||---->
     const [nameFocus, setNameFocus] = useState(false);
@@ -111,6 +111,7 @@ function SignupScreen({ navigation }) {
                     .then((userCredentials) => {
                         Keyboard.dismiss();
                         setLoading(true);
+                        setJustSignedUp(true);
                         console.log('User created');
 
                         if (userCredentials?.user.uid) {
@@ -145,15 +146,21 @@ function SignupScreen({ navigation }) {
                                     setAddress('');
                                     setCity('');
 
+                                    // auth.signOut().then(() => {
+                                    //     setTimeout(() => {
+                                    //         setSuccess(null);
+                                    //         navigation.navigate('login');
+                                    //     }, 2600);
+                                    // }).catch((err) => {
+                                    //     console.log(err);
+                                    // });
+
                                     auth.signOut().then(() => {
-                                        setTimeout(() => {
-                                            setSuccess(null);
-                                            navigation.navigate('login');
-                                        }, 2600);
-                                    })
-                                        .catch((err) => {
-                                            console.log(err);
-                                        });
+                                        setSuccess(null);
+                                        navigation.navigate('login');
+                                    }).catch((err) => {
+                                        console.log(err);
+                                    });
                                 })
                                 .catch((err) => { console.log(err) })
                         }

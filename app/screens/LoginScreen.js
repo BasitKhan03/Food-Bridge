@@ -67,7 +67,7 @@ function LoginScreen({ navigation }) {
                 return;
             }
         }
-    }
+    };
 
     return (
         <View style={{ flex: 1 }}>
