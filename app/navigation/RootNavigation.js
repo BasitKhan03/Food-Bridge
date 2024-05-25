@@ -1,69 +1,62 @@
-import React, { useState, useEffect } from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import React, { useState, useEffect } from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
-import { auth } from '../firebase/FirebaseConfig';
+import { auth } from "../firebase/FirebaseConfig";
 import { onAuthStateChanged } from "firebase/auth";
 
-import AuthStack from './AuthStack';
-import AppStack from './AppStack';
-import SplashScreen from '../screens/SplashScreen';
+import AuthStack from "./AuthStack";
+import AppStack from "./AppStack";
+import SplashScreen from "../screens/SplashScreen";
 
 function RootNavigation() {
-    const [user, setUser] = useState([]);
-    const [userLevel, setUserLevel] = useState();
-    const [notificationData, setNotificationData] = useState([]);
-    const [userLogged, setUserLogged] = useState(null);
-    const [loading, setLoading] = useState(true);
-    const [justSignedUp, setJustSignedUp] = useState(false);
+  const [user, setUser] = useState([]);
+  const [userLevel, setUserLevel] = useState();
+  const [notificationData, setNotificationData] = useState([]);
+  const [userLogged, setUserLogged] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        setJustSignedUp(false);
-    }, []);
+  useEffect(() => {
+    const checkLogin = async () => {
+      setLoading(true);
 
-    useEffect(() => {
-        const checkLogin = () => {
-            setLoading(true);
-            onAuthStateChanged(auth, (user) => {
-                if (user) {
-                    setUserLogged(user);
-                    setLoading(false);
-                } else {
-                    setUserLogged(null);
-                    console.log('No user logged in (Welcome)');
-                    setLoading(false);
-                }
-            });
+      const isNewUser = await AsyncStorage.getItem("isNewUser");
+
+      onAuthStateChanged(auth, (user) => {
+        if (user && isNewUser !== "true") {
+          setUserLogged(user);
+          console.log("User logged in (Welcome)");
+          setLoading(false);
+        } else {
+          setUserLogged(null);
+          console.log("No user logged in (Welcome)");
+          setLoading(false);
         }
+      });
+    };
+    checkLogin();
+  }, []);
 
-        if (!justSignedUp) {
-            checkLogin();
-        }
-    }, [justSignedUp]);
+  if (loading) {
+    return <SplashScreen />;
+  }
 
-    if (loading) {
-        return <SplashScreen />;
-    }
-
-    if (justSignedUp) {
-        return (
-            <NavigationContainer>
-                <AuthStack setJustSignedUp={setJustSignedUp} />
-            </NavigationContainer>
-        )
-    }
-
-    else {
-        return (
-            <NavigationContainer>
-                {userLogged ?
-                    <AppStack setUser={setUser} user={user} setUserLevel={setUserLevel} userLevel={userLevel} setNotificationData={setNotificationData} notificationData={notificationData} />
-                    :
-                    <AuthStack setJustSignedUp={setJustSignedUp} />
-                }
-            </NavigationContainer>
-        );
-    }
-
+  return (
+    <NavigationContainer>
+      {userLogged ? (
+        <AppStack
+          setUser={setUser}
+          user={user}
+          setUserLevel={setUserLevel}
+          userLevel={userLevel}
+          setNotificationData={setNotificationData}
+          notificationData={notificationData}
+        />
+      ) : (
+        <AuthStack />
+      )}
+    </NavigationContainer>
+  );
 }
 
 export default RootNavigation;
