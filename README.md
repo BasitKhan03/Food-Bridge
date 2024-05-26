@@ -2,7 +2,7 @@
 Food-Bridge is a mobile application designed to bridge the gap between surplus food and those in need. Built using React Native, it provides a platform for users to share excess food with their local community, reducing food waste and addressing hunger.
 
 ### Download the App
-You can download the latest version of the Food Bridge app APK [here](https://expo.dev//accounts/food-bridge/projects/Food-Bridge/builds/641cd796-2931-4ff6-9e57-b935a933e22a)
+You can download the latest version of the Food Bridge app APK [here](https://expo.dev/accounts/food-bridge/projects/Food-Bridge/builds/fd2aba2c-f6ae-4486-b9f7-63f485eeaa86)
 
 ## Features
 
