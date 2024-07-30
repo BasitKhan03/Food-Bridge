@@ -19,7 +19,7 @@ To get started with Food-Bridge, follow these steps:
 1) Clone this repository to your local machine.
 2) Navigate to the project directory.
 3) Install dependencies using `npm install` or `yarn install`.
-4) Run the app on your preferred platform using npm start or yarn start.
+4) Run the app on your preferred platform using `npm start` or `yarn start`.
 
 ## Usage
 Once the app is installed, users can:
