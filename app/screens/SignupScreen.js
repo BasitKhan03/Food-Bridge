@@ -8,7 +8,6 @@ import {
   Keyboard,
   ScrollView,
   Image,
-  StatusBar,
 } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import {
@@ -635,10 +634,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    justifyContent: "flex-start",
+    justifyContent: "center",
     backgroundColor: colors.white,
     zIndex: 2,
-    paddingTop: StatusBar.currentHeight * 1.2,
     paddingBottom: spacing * 1.7,
   },
 
