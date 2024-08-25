@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   Keyboard,
   ScrollView,
+  StatusBar,
 } from "react-native";
 import {
   AntDesign,
@@ -88,7 +89,7 @@ function LoginScreen({ navigation }) {
         keyboardShouldPersistTaps="handled"
       >
         <View style={styles.container}>
-          <View>
+          <View style={styles.headingContainer}>
             <Text style={styles.headingDark}>Hello Again!</Text>
             <Text style={styles.headingLight}>
               Welcome back you've {"\n"} been missed!
@@ -263,9 +264,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "flex-start",
     backgroundColor: colors.white,
     zIndex: 2,
+  },
+  headingContainer: {
+    marginTop: StatusBar.currentHeight * 2,
   },
   headingDark: {
     color: colors.black,
