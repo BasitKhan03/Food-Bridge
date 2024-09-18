@@ -635,11 +635,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    justifyContent: "flex-start",
+    justifyContent: "center",
     backgroundColor: colors.white,
     zIndex: 2,
-    paddingTop: StatusBar.currentHeight * 2,
-    paddingBottom: spacing * 1.7,
+    // paddingTop: StatusBar.currentHeight * 1.8,
+    // paddingBottom: spacing * 1.7,
   },
 
   headingDark: {

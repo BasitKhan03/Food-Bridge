@@ -264,13 +264,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    justifyContent: "flex-start",
+    justifyContent: "center",
     backgroundColor: colors.white,
     zIndex: 2,
   },
-  headingContainer: {
-    marginTop: StatusBar.currentHeight * 2,
-  },
+  // headingContainer: {
+  //   marginTop: StatusBar.currentHeight * 1.8,
+  // },
   headingDark: {
     color: colors.black,
     fontSize: 34,
