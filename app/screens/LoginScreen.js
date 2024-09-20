@@ -269,7 +269,7 @@ const styles = StyleSheet.create({
     zIndex: 2,
   },
   headingContainer: {
-    marginTop: StatusBar.currentHeight * 1.8,
+    marginTop: StatusBar.currentHeight * 1.6,
   },
   headingDark: {
     color: colors.black,

@@ -638,7 +638,7 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start",
     backgroundColor: colors.white,
     zIndex: 2,
-    paddingTop: StatusBar.currentHeight * 1.8,
+    paddingTop: StatusBar.currentHeight * 1.6,
     paddingBottom: spacing * 1.7,
   },
 
